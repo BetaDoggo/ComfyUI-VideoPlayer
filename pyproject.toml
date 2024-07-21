@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-videoplayer"
+description = "1 step closer to replacing all software with comfy"
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/BetaDoggo/ComfyUI-VideoPlayer"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-VideoPlayer"
+Icon = ""
