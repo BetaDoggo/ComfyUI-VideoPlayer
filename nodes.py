@@ -4,7 +4,7 @@ class LoadFrame:
     def INPUT_TYPES(s):
         return {
             "required": {
-                "frame": ("INT", {"default": 1, "min": 1, "max": 100000, "step": 1}, {"forceInput": True}),
+                "frame": ("INT", {"default": 1, "min": 1, "max": 100000, "step": 1, "forceInput": True}),
                 "frameRate": ("INT", {"default": 0, "min": 0, "max": 144, "step": 1}),
                 "path": ("STRING", {"forceInput": False}),
             },
