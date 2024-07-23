@@ -1,0 +1,4 @@
+cupy-cuda12x
+numba
+numpy
+opencv-python
