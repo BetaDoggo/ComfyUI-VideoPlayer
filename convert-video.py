@@ -13,14 +13,9 @@ def image_to_emoji(image, width):
     #set the black/white threshold to the mean value of the pixels
     threshold = np.mean(pixels)
     ascii_image = ""
-    for row in pixels:
-        for pixel in row:
-            if pixel > threshold:
-                ascii_image += "⬜"
-            else:
-                ascii_image += "⬛"
-        ascii_image += "\n"
-   
+    #this is quite a bit faster than the previous double for loop method
+    emoji_array = np.where(pixels > threshold, "⬜", "⬛")
+    ascii_image = '\n'.join([''.join(row) for row in emoji_array])
     return ascii_image
 
 def video_to_ascii(video_path, output_folder, width):
