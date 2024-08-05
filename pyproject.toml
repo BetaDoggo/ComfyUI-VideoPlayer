@@ -1,6 +1,6 @@
 [project]
 name = "comfyui-videoplayer"
-description = "1 step closer to replacing all software with comfy"
+description = "A silly POC Video Player for ComfyUI"
 version = "1.0.0"
 license = {file = "LICENSE"}
 
@@ -9,6 +9,6 @@ Repository = "https://github.com/BetaDoggo/ComfyUI-VideoPlayer"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "betadoggo"
 DisplayName = "ComfyUI-VideoPlayer"
 Icon = ""
