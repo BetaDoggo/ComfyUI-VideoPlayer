@@ -1,8 +1,14 @@
 # ComfyUI Video Player
 1 step closer to replacing all software with comfy
 ![preview](https://github.com/BetaDoggo/ComfyUI-VideoPlayer/blob/main/ComfyApple.gif)
-# Usage 
+
 Install this node as well as [ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts)
+# Usage (automatic)
+1. Load allinoneworkflow.json
+2. Enter the full video path
+3. Check "Extra options" -> "Auto Queue"
+4. Click "Queue Prompt"
+# Usage (manual)
 1. Convert your file using the included convert-video.py or convert-video-color.py/convert-video-color-cuda.py (requires cuda-requirements.txt)
 2. Load the example workflow
 3. Set the framerate of the video
